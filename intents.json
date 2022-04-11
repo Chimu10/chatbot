@@ -1,0 +1,1045 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "website",
+      "patterns": [
+        "Official website of VIT",
+        "Website of VIT",
+        "Official Website"
+      ],
+      "responses": [
+        "https://vit.edu.in/"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where is VIT located",
+        "Address Of VIT",
+        "how to find VIT"
+      ],
+      "responses": [
+        "Vidyalankar Institute of Technology, Vidyalankar College Marg, Wadala(E), Mumbai-400 037"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "Contact Number and Email id",
+        "Contact VIT",
+        "email id and phone number",
+        "email id of vit",
+        "contact number of vit"
+      ],
+      "responses": [
+        "+91 22 2416 11 26 \n principal@vit.edu.in"
+      ]
+    },
+    {
+      "tag": "branches",
+      "patterns": [
+        "Available Branches in VIT",
+        "Branches in VIT",
+        "Branches",
+        "Departments in VIT",
+        "Departments",
+        "Available Departments in VIT"
+      ],
+      "responses": [
+        "INFORMATION TECHNOLOGY \n COMPUTER ENGINEERING \n ELECTRONIC AND TELECOMMUNICATION \n ELECTRONICS ENGINEERING \n BIOMEDICAL ENGINEERING "
+      ]
+    },
+    {
+      "tag":"principal",
+      "patterns":[
+        "Who is the principal of VIT",
+        "Principal",
+        "Principal of VIT"
+      ],
+      "responses":[
+        "Dr. Sunil Patekar"
+      ]
+    },
+    {
+      "tag":"vice-principal",
+      "patterns":[
+        "Who is the vice-principal of VIT",
+        "Vice-Principal",
+        "Vice-Principal of VIT"
+      ],
+      "responses":[
+        "Varsha Bhosale"
+      ]
+    },
+    {
+      "tag":"station",
+      "patterns":[
+        "Nearest Station",
+        "nearest railway station",
+        "station",
+        "railway station"
+      ],
+      "responses":[
+        "Wadala \n Sion \n Dadar"
+      ]
+    },
+    {
+      "tag":"annual-event",
+      "patterns":[
+        "Annual event of VIT",
+        "Annual event"
+      ],
+      "responses":[
+        "Verve"
+      ]
+    },
+    {
+      "tag":"facilities",
+      "patterns":[
+        "Facilities available at VIT",
+        "facilities at VIT",
+        "facilities",
+        "Different types of facilities at VIT"
+      ],
+      "responses":[
+        "V-Print \n V-Book \n Vending Machine"
+      ]
+    },
+    {
+      "tag":"food-outlets",
+      "patterns":[
+        "food outlets at VIT",
+        "food outlets"
+      ],
+      "responses":[
+        "CCD (Cafe Coffee Day) \n Dominos"
+      ]
+    },
+    {
+      "tag": "naacrating",
+      "patterns": [
+        "NAAC rating of vit",
+        "NAAC rating",
+        "what is the naac rating of vit",
+        "what is the naac rating"
+      ],
+      "responses": [
+        "A+",
+        "The Institute is accredited by National Assessment and Accreditation Council (NAAC): A+"
+      ]
+    },
+    {
+      "tag": "vision",
+      "patterns": [
+        "VISION OF VIT",
+        "VISION",
+        "what is the vision of vit",
+        "what is the VISION"
+      ],
+      "responses": [
+        "To be a globally recognized engineering institute where learners are nurtured in a scholarly environment to evolve into competent professionals and researchers to benefit society."
+      ]
+    },
+    {
+      "tag": "founders",
+      "patterns": [
+        "who are the founders of vit ",
+        "founders of vit",
+        "founders",
+        "vit founders"
+      ],
+      "responses": [
+        "Late Prof. Chandrashekhar S. Deshpande (Founder Chairman, Vidyalankar Dnyanapeeth Trust (1998-2005)) \n Late Dr. Sanjeewani Deshpande (Chairperson, Vidyalankar Dnyanapeeth Trust (2005-2016)\n)"
+      ]
+    },
+    {
+      "tag": "international-trip",
+      "patterns": [
+        "international trips at VIT",
+        "international trips"
+      ],
+      "responses": [
+        "South Korea \n Germany \n Singapore \n Malaysia"
+      ]
+    },
+    {
+      "tag": "mission",
+      "patterns": [
+        "MISSION OF VIT",
+        "MISSION",
+        "what is the mission of vit",
+        "what is the mission"
+      ],
+      "responses": [
+        "Evolve a curriculum which emphasizes on strong fundamentals with the flexibility to choose advanced courses of interest and gain exposure to tools and techniques in contemporary subjects."
+      ]
+    },
+    {
+      "tag": "cmpn-languages",
+      "patterns": [
+        "languages in computer engineering",
+        "coding languages",
+        "coding",
+        "Languages taught in Computer Engineering"
+      ],
+      "responses": [
+        "C, Java, Python"
+      ]
+    },
+    {
+      "tag": "cmpn-faculty",
+      "patterns": [
+        "Faculty of computer department",
+        "Faculty of computer engineering",
+        "Faculty of computer branch",
+        "Teaching staff of computer Engineering",
+        "Faculties for CMPN in VIT"
+
+      ],
+      "responses": [
+        "Mandar Sohani\n Pankah Vanvari \n Prakash Parmar \n Prita Patil \n Ravindra Sangle \n Swapnil Sonawane"
+      ]
+    },
+    {
+      "tag": "cmpn-hod",
+      "patterns": [
+        "HOD of CMPN branch in VIT",
+        "hod of CMPN branch in VIT",
+        "HOD of CMPN branch",
+        "HOD of CMPN",
+        "hod of cmpn branch in VIT",
+        "hod of cmpn branch",
+        "Head of department of cmpn branch",
+        "Head of department of cmpn",
+        "Head of department of computer branch"
+      ],
+      "responses": [
+        "Dr. Sachin Bojewar ",
+        "HOD of CMPN is Dr. Sachin Bojewar ",
+        "HOD of computer branch is Dr. Sachin Bojewar "
+      ]
+    },
+    {
+      "tag": "cmpn-UGIntake",
+      "patterns": [
+        "Intake for UG-CMPN branch",
+        "Intake for UG-CMPN",
+        "Intake for UG-Computer branch",
+        "Intake for Undergraduate-CMPN branch",
+        "Intake for Undergraduate-Computer branch ",
+        "Intake for Undergraduate Computer branch",
+        "Intake for Undergraduate Computer Engineering branch",
+        "Intake for Undergraduate Computer Engineering",
+        "Intake for Undergraduate Computer Engineering in Vit"
+      ],
+      "responses": [
+        "120",
+        "Intake for Undergraduate Computer branch is 120",
+        "Intake for Undergraduate Computer Engineering in Vit is 120"
+      ]
+    },
+    {
+      "tag": "cmpn-PGIntake",
+      "patterns": [
+        "Intake for PG-CMPN branch",
+        "Intake for PG-CMPN",
+        "Intake for PG-Computer branch",
+        "Intake for Postgraduate-CMPN branch",
+        "Intake for Postgraduate-Computer branch ",
+        "Intake for Postgraduate Computer branch",
+        "Intake for Postgraduate Computer Engineering branch",
+        "Intake for Postgraduate Computer Engineering",
+        "Intake for Postgraduate Computer Engineering in Vit"
+      ],
+      "responses": [
+        "18",
+        "Intake for Postgraduate Computer branch is 18",
+        "Intake for Postgraduate Computer Engineering in Vit is 18"
+      ]
+    },
+    {
+      "tag": "cmpn-PhDIntake",
+      "patterns": [
+        "Intake for Doctoral Ph.D of CMPN branch",
+        "Intake for Doctoral Ph.D of CMPN",
+        "Intake for Doctoral Ph.D of Computer branch",
+        "Intake for Doctoral Ph.D of CMPN branch",
+        "Intake for Doctoral Ph.D of Computer branch ",
+        "Intake for Doctoral Ph.D of Computer branch",
+        "Intake for Doctoral Ph.D of Computer Engineering branch",
+        "Intake for Doctoral Ph.D of Computer Engineering",
+        "Intake for Doctoral Ph.D of Computer Engineering in Vit"
+      ],
+      "responses": [
+        "10",
+        "Intake for Doctoral Ph.D of Computer branch is 10",
+        "Intake for Doctoral Ph.D of Computer Engineering in Vit is 10"
+      ]
+    },
+    {
+      "tag": "cmpn-Publications ",
+      "patterns": [
+        "About research publications",
+        "About research publications of computer branch",
+        "About research publications of computer branch faculty",
+        "Research publications of CMPN",
+        "Research publications of Computer branch",
+        "Research publications of Computer Engineering branch"
+      ],
+      "responses": [
+        "Prof. Sachin Deshpande - 131 citations, H-index:06 & I-index:4 \n Prof. Mandar Sohani - 96, H-index:04 & I-index:02 \n Dr. Vipul Dalal - 91 citations, H-index:05 & I-index:02 \n Prof. Avinash Shrivas - 76 citations, H-index:02 & 03, I-index:01\n Dr. Dilip Motwani - 48 citation, H-index:04 & I-index:1"
+      ]
+    },
+    {
+      "tag": "cmpn-TechnicalActivities",
+      "patterns": [
+        "Technical Activities in CMPN",
+        "Technical Activities in computer branch",
+        "Technical Activities in computer engineering"
+      ],
+      "responses": [
+        "CyberFrat, Protocol 1.0, Flagship events, TEDxVIT"
+      ]
+    },
+    {
+      "tag": "SECMPNSyllabus",
+      "patterns": [
+        "Syllabus For Second year CMPN",
+        "Syllabus For Second year Computer engineering",
+        "Syllabus For Second year Computer engineering branch",
+        "Syllabus For Second year Computer branch",
+        "Syllabus For Second year CMPN branch",
+        "Syllabus For SE-CMPN branch"
+      ],
+      "responses": [
+        "https://vit.edu.in/images/syllabus/computer/CMPN_SE_2019.pdf"
+      ]
+    },
+    {
+      "tag": "TECMPNSyllabus",
+      "patterns": [
+        "Syllabus For Third year CMPN",
+        "Syllabus For Third year Computer engineering",
+        "Syllabus For Third year Computer engineering branch",
+        "Syllabus For Third year Computer branch",
+        "Syllabus For Third year CMPN branch",
+        "Syllabus For TE-CMPN branch"
+      ],
+      "responses": [
+        "https://vit.edu.in/images/syllabus/computer/CMPN_TE_2016.pdf"
+      ]
+    },
+    {
+      "tag": "BECMPNSyllabus",
+      "patterns": [
+        "Syllabus For Final year CMPN",
+        "Syllabus For Final year Computer engineering",
+        "Syllabus For Final year Computer engineering branch",
+        "Syllabus For Final year Computer branch",
+        "Syllabus For Final year CMPN branch",
+        "Syllabus For BE-CMPN branch"
+      ],
+      "responses": [
+        "https://vit.edu.in/images/syllabus/computer/CMPN_BE_2016.pdf"
+      ]
+    },
+    {
+      "tag": "PGCMPNSyllabus",
+      "patterns": [
+        "Syllabus For Post-graduation CMPN",
+        "Syllabus For Post-graduation Computer engineering",
+        "Syllabus For Post-graduation Computer engineering branch",
+        "Syllabus For Post-graduation Computer branch",
+        "Syllabus For Post-graduation CMPN branch",
+        "Syllabus For PG-CMPN branch"
+      ],
+      "responses": [
+        "https://vit.edu.in/images/syllabus/computer/PG_Syllabus_Computer_Engineering.pdf"
+      ]
+    },
+    {
+      "tag": "languages-INFT",
+      "patterns": [
+        "languages in Information Technical engineering",
+        "coding languages in inft",
+        "coding in inft",
+        "Languages taught in INFT Engineering"
+
+      ],
+      "responses": [
+        "C, Java, Python"
+      ]
+},
+{
+      "tag": "INFT-Faculty",
+      "patterns": [
+        "Faculty of INFT department",
+        "Faculty of inft engineering",
+        "Faculty of inft branch",
+        "Teaching staff of inft Engineering",
+	    "Faculties for INFT in VIT",
+	    "Faculty of inft department",
+        "Faculty of INFT engineering",
+        "Faculty of INFT branch",
+        "Teaching staff of INFT Engineering",
+	    "Faculties for inft in VIT"
+
+      ],
+      "responses": [
+        "Harshali Rambade,\n  Ichhanshu Jaiswal,\n Rohit Barve,\n Shruti Agarwal,\n Varsha Bhosale,\n Dilip Motwani"
+      ]
+},
+{
+      "tag": "INFT-hod",
+      "patterns": [
+        "HOD of INFT branch in VIT",
+	    "HOD of inft branch in VIT",
+        "hod of INFT branch in VIT",
+        "HOD of INFT branch",
+        "HOD of INFT",
+	    "HOD of inft",
+	    "hod of INFT",
+	    "hod of inft",
+        "hod of inft branch in VIT",
+	    "hod of INFT branch in VIT",
+        "hod of inft branch",
+	    "Head of department of inft branch",
+	    "Head of department of INFT branch",
+	    "Head of department of inft",
+	    "Head of department of INFT",
+	    "Head of department of Information Technology branch"
+      ],
+      "responses": [
+        "Dr.Vipul Dalal ",
+        "HOD of INFT is Dr.Vipul Dalal ",
+        "HOD of inft branch is Dr.Vipul Dalal "
+      ]
+},
+{
+      "tag": "INFT-UG-Intake",
+      "patterns": [
+        "Intake for UG-INFT branch",
+        "Intake for UG-INFT",
+        "Intake for UG-Information Technology branch",
+        "Intake for Undergraduate-INFT branch",
+        "Intake for Undergraduate-inft branch ",
+        "Intake for Undergraduate inft branch",
+	    "Intake for Undergraduate Inft branch",
+	    "Intake for Undergraduate Inft Engineering branch",
+	    "Intake for Undergraduate Inft Engineering",
+	    "Intake for Undergraduate Inft Engineering in Vit"
+      ],
+      "responses": [
+        "120",
+        "Intake for Undergraduate Inft branch is 120",
+	    "Intake for undergraduate inft branch is 120",
+        "Intake for Undergraduate inft Engineering in Vit is 120"
+      ]
+},
+{
+      "tag": "INFT-PG-Intake",
+      "patterns": [
+        "Intake for PG-INFT branch",
+        "Intake for PG-INFT",
+        "Intake for PG-inft branch",
+        "Intake for Postgraduate-INFT branch",
+        "Intake for Postgraduate-Information technology branch ",
+        "Intake for Postgraduate Information technology branch",
+	    "Intake for Postgraduate inft Engineering branch",
+	    "Intake for Postgraduate inft Engineering",
+	    "Intake for Postgraduate inft Engineering in Vit"
+      ],
+      "responses": [
+        "18",
+        "Intake for Postgraduate INFT branch is 18",
+        "Intake for Postgraduate Information technology Engineering in Vit is 18"
+      ]
+},
+{
+      "tag": "INFT-Doctoral Ph.D-Intake",
+      "patterns": [
+        "Intake for Doctoral Ph.D of INFT branch",
+        "Intake for Doctoral Ph.D of INFT",
+        "Intake for Doctoral Ph.D of Information technology branch",
+        "Intake for Doctoral Ph.D of inft branch",
+        "Intake for Doctoral Ph.D of Inft branch ",
+        "Intake for Doctoral Ph.D of Information Technology branch",
+	    "Intake for Doctoral Ph.D of Information technology Engineering branch",
+	    "Intake for Doctoral Ph.D of inft Engineering",
+	    "Intake for Doctoral Ph.D of Inft Engineering in Vit"
+      ],
+      "responses": [
+        "10",
+        "Intake for Doctoral Ph.D of Inft branch is 10",
+        "Intake for Doctoral Ph.D of Inft Engineering in Vit is 10"
+      ]
+},
+{
+      "tag": "INFT-Publications ",
+      "patterns": [
+        "About research publications",
+        "About research publications of inft branch",
+        "About research publications of inft branch faculty",
+        "Research publications of INFT",
+        "Research publications of inft branch",
+        "Research publications of inft Engineering branch"
+      ],
+      "responses": [
+        "Published papers in reputed International journals and conferences like Springer, IEEE, Elsevier, ACM, Scopus indexed and peer reviewed UGC approved journals Intelligent Security Lock by Shashank Sapaliga, Prathamesh Majgaonkar, Pratik Meher, Varad Pandit under the guidance of Dr. Sachin Bojewar."
+      ]
+},
+{
+      "tag": "INFT-Technical Activities",
+      "patterns": [
+        "Technical Activities in INFT",
+	    "Technical Activities in inft",
+        "Technical Activities in inft branch",
+        "Technical Activities in Information Technology engineering",
+	    "Technical Activities in inft engineering"
+      ],
+      "responses": [
+        "CyberFrat, Protocol 1.0, Flagship events, TEDxVIT"
+      ]
+},
+{
+      "tag": "SE-INFT-Syllabus",
+      "patterns": [
+        "Syllabus For Second year INFT",
+	    "Syllabus For Second year inft",
+        "Syllabus For Second year INFT engineering",
+        "Syllabus For Second year inft engineering branch",
+        "Syllabus For Second year inft branch",
+        "Syllabus For Second year INFT branch",
+        "Syllabus For SE-INFT branch"
+      ],
+      "responses": [
+        "https://vit.edu.in/images/syllabus/it/INFT_SE_2019.pdf"
+      ]
+},
+{
+      "tag": "TE-INFT-Syllabus",
+      "patterns": [
+        "Syllabus For Third year INFT",
+	    "Syllabus For Third year inft",
+        "Syllabus For Third year INFT engineering",
+        "Syllabus For Third year INFT engineering branch",
+        "Syllabus For Third year INFT branch",
+        "Syllabus For Third year inft branch",
+        "Syllabus For TE-INFT branch"
+      ],
+      "responses": [
+        "https://vit.edu.in/images/syllabus/it/INFT_TE_2016.pdf"
+      ]
+},
+{
+      "tag": "BE-INFT-Syllabus",
+      "patterns": [
+        "Syllabus For Final year INFT",
+	    "Syllabus For Final year inft",
+        "Syllabus For Final year INFT engineering",
+        "Syllabus For Final year inft engineering branch",
+        "Syllabus For Final year INFT branch",
+        "Syllabus For Final year Information Technology branch",
+        "Syllabus For BE-INFT branch"
+      ],
+      "responses": [
+        "https://vit.edu.in/images/syllabus/it/INFT_BE_2016.pdf"
+      ]
+},
+{
+      "tag": "PG-INFT-Syllabus",
+      "patterns": [
+        "Syllabus For Post-graduation INFT",
+ 	    "Syllabus For Post-graduation inft",
+        "Syllabus For Post-graduation inft engineering",
+	    "Syllabus For Post-graduation INFT engineering",
+        "Syllabus For Post-graduation INFT engineering branch",
+	    "Syllabus For Post-graduation inft engineering branch",
+        "Syllabus For Post-graduation INFT branch",
+        "Syllabus For Post-graduation inft branch",
+        "Syllabus For PG-INFT branch"
+      ],
+      "responses": [
+        "https://vit.edu.in/images/syllabus/it/PG_Syllabus.pdf"
+      ]
+},
+{
+      "tag": "Faculty",
+      "patterns": [
+        "Faculty of biomedical department",
+        "Faculty of biomedical engineering",
+        "Faculty of biomedical branch",
+        "Teaching staff of biomedical Engineering",
+	    "Faculties for BIOM in VIT"
+      ],
+      "responses": [
+        "Arunkumar Ram, Priyanka Shrivastava, Suvarna Udgire, Neelam Punjabi, Komal Shinde"
+      ]
+},
+{
+      "tag": "biom-hod",
+      "patterns": [
+        "HOD of BIOM branch in VIT",
+        "hod of BIOM branch in VIT",
+        "HOD of BIOM branch",
+        "HOD of BIOM ",
+        "hod of biom branch in VIT",
+        "hod of biom branch",
+	    "Head of department of biom branch",
+        "Head of department of biom",
+	    "Head of department of biomedical branch"
+      ],
+      "responses": [
+        "Dr. Jitendra Toravi",
+        "HOD of BIOM is Dr. Jitendra Toravi",
+        "HOD of biomedical branch is Dr. Jitendra Toravi"
+      ]
+},
+{
+      "tag": "biom-UGIntake",
+      "patterns": [
+        "Intake for UG-BIOM branch",
+        "Intake for UG-BIOM",
+        "Intake for UG-Biomedical branch",
+        "Intake for Undergraduate-BIOM branch",
+        "Intake for Undergraduate-Biomedical branch ",
+        "Intake for Undergraduate Biomedical branch",
+	    "Intake for Undergraduate Biomedical Engineering branch",
+	    "Intake for Undergraduate Biomedical Engineering",
+	    "Intake for Undergraduate Biomedical Engineering in Vit"
+      ],
+      "responses": [
+        "60",
+        "Intake for Undergraduate Biomedical branch is 60",
+        "Intake for Undergraduate Biomedical Engineering in Vit is 60"
+      ]
+},
+{
+      "tag": "bion-Publications ",
+      "patterns": [
+        "About research publications",
+        "About research publications of Biomedical branch",
+        "About research publications of Biomedical branch faculty",
+        "Research publications of BIOM",
+        "Research publications of Biomedical branch",
+        "Research publications of Biomedical Engineering branch"
+      ],
+      "responses": [
+        "Design of Optical Fibre Goniometer having Physiotherapeutic Application for Measurement of the Tilt in Human Joint Early Detection of Parkinson’s Disease using Contrast Enhancement Techniques and CNN Deformation Analysis of Pneumatized Sphenoid Bone caused due to Elevated Intracranial Pressure using Finite Element Analysis"
+      ]
+},
+{
+      "tag": "Technical Activities",
+      "patterns": [
+        "Technical Activities in BIOM",
+        "Technical Activities in Biomedical branch",
+        "Technical Activities in Biomedical engineering"
+      ],
+      "responses": [
+        "Committees like BMSA and BMESI conducts technical seminars, poster competitions, hands on training"
+      ]
+},
+{
+      "tag": "SE-BIOMSyllabus",
+      "patterns": [
+        "Syallabus For Second year BIOM",
+        "Syallabus For Second year Biomedical engineering",
+        "Syallabus For Second year Biomedical engineering branch",
+        "Syallabus For Second year Biomedical branch",
+        "Syallabus For Second year BIOM branch",
+        "Syallabus For SE-BIOM branch"
+      ],
+      "responses": [
+        "https://vit.edu.in/images/syllabus/BIOM_SE_2019.pdf"
+      ]
+},
+{
+      "tag": "TE-BIOMSyllabus",
+      "patterns": [
+        "Syallabus For Third year BIOM",
+        "Syallabus For Third year Biomedical engineering",
+        "Syallabus For Third year Biomedical engineering branch",
+        "Syallabus For Third year Biomedical branch",
+        "Syallabus For Third year BIOM branch",
+        "Syallabus For TE-BIOM branch"
+      ],
+      "responses": [
+        "https://vit.edu.in/images/syllabus/BIOM_TE_2016.pdf"
+      ]
+},
+{
+      "tag": "BE-BIOM-Syllabus",
+      "patterns": [
+        "Syallabus For Final year BIOM",
+        "Syallabus For Final year Biomedical engineering",
+        "Syallabus For Final year Biomedical engineering branch",
+        "Syallabus For Final year Biomedical branch",
+        "Syallabus For Final year BIOM branch",
+        "Syallabus For BE-BIOM branch"
+      ],
+      "responses": [
+        "https://vit.edu.in/images/syllabus/BIOM_BE_2016.pdf"
+      ]
+},
+{
+      "tag": "ETRX-Faculty",
+      "patterns": [
+        "Faculty of ETRX department",
+        "Faculty of ETRX engineering",
+        "Faculty of ETRX branch",
+        "Teaching staff of ETRX Engineering",
+	    "Faculties for ETRX in VIT",
+	    "Faculty of ETRX department",
+        "Faculty of ETRX engineering",
+        "Faculty of ETRX branch",
+        "Teaching staff of ETRX Engineering",
+	    "Faculties for ETRX in VIT"
+
+      ],
+      "responses": [
+        "Akhil Masurkar, Akshatha Bhat, Anuradha Joshi, Javed Patel, Nisy Mathew, Sheetal Mapare"
+      ]
+},
+{
+      "tag": "ETRX-hod",
+      "patterns": [
+        "HOD of ETRX branch in VIT",
+	    "HOD of ETRX branch in VIT",
+        "hod of ETRX branch in VIT",
+        "HOD of ETRX branch",
+        "HOD of ETRX",
+        "HOD of ETRX",
+	    "hod of ETRX",
+        "hod of ETRX",
+        "hod of ETRX branch in VIT",
+        "hod of ETRX branch in VIT",
+        "hod of ETRX branch",
+	    "Head of department of ETRX branch",
+	    "Head of department of ETRX branch",
+	    "Head of department of ETRX",
+	    "Head of department of ETRX",
+	    "Head of department of Information Technology branch"
+      ],
+      "responses": [
+        "Dr. Arun Chavan sir",
+        "HOD of ETRX is Dr. Arun Chavan Sir",
+        "HOD of ETRX branch is Dr. Arun Chavan Sir"
+      ]
+},
+{
+      "tag": "ETRX-UG-Intake",
+      "patterns": [
+        "Intake for UG-ETRX branch",
+        "Intake for UG-ETRX",
+        "Intake for UG-Information Technology branch",
+        "Intake for Undergraduate-ETRX branch",
+        "Intake for Undergraduate-ETRX branch ",
+        "Intake for Undergraduate ETRX branch",
+	    "Intake for Undergraduate ETRX branch",
+        "Intake for Undergraduate ETRX Engineering branch",
+	    "Intake for Undergraduate ETRX Engineering",
+        "Intake for Undergraduate ETRX Engineering in Vit"
+      ],
+      "responses": [
+        "120",
+        "Intake for Undergraduate ETRX branch is 120",
+	    "Intake for undergraduate ETRX branch is 120",
+        "Intake for Undergraduate ETRX Engineering in Vit is 120"
+      ]
+},
+{
+      "tag": "ETRX-PG-Intake",
+      "patterns": [
+        "Intake for PG-ETRX branch",
+        "Intake for PG-ETRX",
+        "Intake for PG-ETRX branch",
+        "Intake for Postgraduate-ETRX branch",
+        "Intake for Postgraduate-Electronics branch ",
+        "Intake for Postgraduate Electronics branch",
+	    "Intake for Postgraduate ETRX Engineering branch",
+	    "Intake for Postgraduate ETRX Engineering",
+	    "Intake for Postgraduate ETRX Engineering in Vit"
+      ],
+      "responses": [
+        "18",
+        "Intake for Postgraduate ETRX branch is 18",
+        "Intake for Postgraduate Electronics Engineering in Vit is 18"
+      ]
+},
+{
+      "tag": "ETRX-Doctoral Ph.D-Intake",
+      "patterns": [
+        "Intake for Doctoral Ph.D of ETRX branch",
+        "Intake for Doctoral Ph.D of ETRX",
+        "Intake for Doctoral Ph.D of Electronics branch",
+        "Intake for Doctoral Ph.D of ETRX branch",
+        "Intake for Doctoral Ph.D of ETRX branch ",
+        "Intake for Doctoral Ph.D of Electronics branch",
+	    "Intake for Doctoral Ph.D of Electronics Engineering branch",
+	    "Intake for Doctoral Ph.D of ETRX Engineering",
+	    "Intake for Doctoral Ph.D of ETRX Engineering in Vit"
+      ],
+      "responses": [
+        "10",
+        "Intake for Doctoral Ph.D of ETRX branch is 10",
+        "Intake for Doctoral Ph.D of ETRX Engineering in Vit is 10"
+      ]
+},
+{
+      "tag": "ETRX-Publications ",
+      "patterns": [
+        "About research publications",
+        "About research publications of ETRX branch",
+        "About research publications of ETRX branch faculty",
+        "Research publications of ETRX",
+        "Research publications of ETRX branch",
+        "Research publications of ETRX Engineering branch"
+      ],
+      "responses": [
+        "Presentations or articles at national and international conferences like IEEE.Significant national and international journal and conference publications like IEEE, Springer, Elsevier, books in various publications"
+      ]
+},
+{
+      "tag": "ETRX-Technical Activities",
+      "patterns": [
+        "Technical Activities in ETRX",
+        "Technical Activities in ETRX",
+        "Technical Activities in ETRX branch",
+        "Technical Activities in Electronics engineering",
+	    "Technical Activities in ETRX engineering"
+      ],
+      "responses": [
+        "E-yantra workshop, STEM workshop, BizzNext"
+      ]
+},
+{
+      "tag": "SE-ETRX-Syllabus",
+      "patterns": [
+        "Syllabus For Second year ETRX",
+	    "Syllabus For Second year ETRX",
+        "Syllabus For Second year ETRX engineering",
+        "Syllabus For Second year ETRX engineering branch",
+        "Syllabus For Second year ETRX branch",
+        "Syllabus For Second year ETRX branch",
+        "Syllabus For SE-ETRX branch"
+      ],
+      "responses": [
+        "https://vit.edu.in/images/syllabus/ETRX_SE_2019.pdf"
+      ]
+},
+{
+      "tag": "TE-ETRX-Syllabus",
+      "patterns": [
+        "Syllabus For Third year ETRX",
+	    "Syllabus For Third year ETRX",
+        "Syllabus For Third year ETRX engineering",
+        "Syllabus For Third year ETRX engineering branch",
+        "Syllabus For Third year ETRX branch",
+        "Syllabus For Third year ETRX branch",
+        "Syllabus For TE-ETRX branch"
+      ],
+      "responses": [
+        "https://vit.edu.in/images/syllabus/ETRX_TE_2016.pdf"
+      ]
+},
+{
+      "tag": "BE-ETRX-Syllabus",
+      "patterns": [
+        "Syllabus For Final year ETRX",
+	    "Syllabus For Final year ETRX",
+        "Syllabus For Final year ETRX engineering",
+        "Syllabus For Final year ETRX engineering branch",
+        "Syllabus For Final year ETRX branch",
+        "Syllabus For Final year Information Technology branch",
+        "Syllabus For BE-ETRX branch"
+      ],
+      "responses": [
+        "https://vit.edu.in/images/syllabus/ETRX_BE_2016.pdf"
+      ]
+},
+{
+      "tag": "PG-ETRX-Syllabus",
+      "patterns": [
+        "Syllabus For Post-graduation ETRX",
+	    "Syllabus For Post-graduation ETRX",
+        "Syllabus For Post-graduation ETRX engineering",
+	    "Syllabus For Post-graduation ETRX engineering",
+        "Syllabus For Post-graduation ETRX engineering branch",
+        "Syllabus For Post-graduation ETRX engineering branch",
+        "Syllabus For Post-graduation ETRX branch",
+        "Syllabus For Post-graduation ETRX branch",
+        "Syllabus For PG-ETRX branch"
+      ],
+      "responses": [
+        "http://old.mu.ac.in/wp-content/uploads/2016/06/4.22-M.E.-Electronics-Engg.pdf"
+      ]
+},
+{
+      "tag": "extc-Faculty",
+      "patterns": [
+        "Faculty of electronics and telecommunications department",
+        "Faculty of electronics and telecommunicationsengineering",
+        "Faculty of electronics and telecommunicationsbranch",
+        "Teaching staff of electronics and telecommunicationsEngineering",
+	    "Faculties for EXTC in VIT"
+      ],
+      "responses": [
+        "Ranjana Gite \n Santosh Jagtap \n Swapnil Ashtekar \n Tejal Page \n Vibha Wali \n Vijay Purohit"
+      ]
+},
+{
+      "tag": "extc-hod",
+      "patterns": [
+        "HOD of EXTC branch in VIT",
+        "hod of EXTC branch in VIT",
+        "HOD of EXTC branch",
+        "HOD of EXTC ",
+        "hod of extc branch in VIT",
+        "hod of extc branch",
+        "Head of department of extc branch",
+	    "Head of department of extc",
+        "Head of department of electronics and telecommunications branch"
+      ],
+      "responses": [
+        "Dr. Sanjay Singh Thakur",
+        "HOD of EXTC is Dr. Sanjay Singh Thakur",
+        "HOD of electronics and telecommunications branch is Dr. Sanjay Singh Thakur"
+      ]
+},
+{
+      "tag": "extc-UG-Intake",
+      "patterns": [
+        "Intake for UG-EXTC branch",
+        "Intake for UG-EXTC",
+        "Intake for UG-Electronics and telecommunications branch",
+        "Intake for Undergraduate-EXTC branch",
+        "Intake for Undergraduate-Electronics and telecommunications branch ",
+        "Intake for Undergraduate Electronics and telecommunications branch",
+	    "Intake for Undergraduate Electronics and telecommunications Engineering branch",
+	    "Intake for Undergraduate Electronics and telecommunications Engineering",
+	    "Intake for Undergraduate Electronics and telecommunications Engineering in Vit"
+      ],
+      "responses": [
+        "120",
+        "Intake for Undergraduate Electronics and telecommunications branch is 120",
+        "Intake for Undergraduate Electronics and telecommunications Engineering in Vit is 120"
+      ]
+},
+{
+      "tag": "extc-PG-Intake",
+      "patterns": [
+        "Intake for PG-EXTC branch",
+        "Intake for PG-EXTC",
+        "Intake for PG-Electronics and telecommunications branch",
+        "Intake for Postgraduate-EXTC branch",
+        "Intake for Postgraduate-Electronics and telecommunications branch ",
+        "Intake for Postgraduate Electronics and telecommunications branch",
+	    "Intake for Postgraduate Electronics and telecommunications Engineering branch",
+	    "Intake for Postgraduate Electronics and telecommunications Engineering",
+	    "Intake for Postgraduate Electronics and telecommunications Engineering in Vit"
+      ],
+      "responses": [
+        "18",
+        "Intake for Postgraduate Computer branch is 18",
+        "Intake for Postgraduate Computer Engineering in Vit is 18"
+      ]
+},
+{
+      "tag": "extc-TechnicalActivities",
+      "patterns": [
+        "Technical Activities in EXTC",
+        "Technical Activities in Electronics and telecommunications branch",
+        "Technical Activities in Electronics and telecommunications engineering"
+      ],
+      "responses": [
+        "The IETE and ETSA Committee's provide hands-on experience on various software and hardware hands-on experience on various software and hardware thus making them ready for the real-world challenges."
+      ]
+},
+{
+      "tag": "SE-EXTC-Syllabus",
+      "patterns": [
+        "Syllabus For Second year EXTC",
+        "Syllabus For Second year Electronics and telecommunications engineering",
+        "Syllabus For Second year Electronics and telecommunications engineering branch",
+        "Syllabus For Second year Electronics and telecommunications branch",
+        "Syllabus For Second year EXTC branch",
+        "Syllabus For SE-EXTC branch"
+      ],
+      "responses": [
+        "https://vit.edu.in/images/syllabus/telecommunication/EXTC_SE_2019.pdf"
+      ]
+},
+{
+      "tag": "TE-EXTC-Syllabus",
+      "patterns": [
+        "Syllabus For Third year EXTC",
+        "Syllabus For Third year Electronics and telecommunications engineering",
+        "Syllabus For Third year Electronics and telecommunications engineering branch",
+        "Syllabus For Third year Electronics and telecommunications branch",
+        "Syllabus For Third year EXTC branch",
+        "Syllabus For TE-EXTC branch"
+      ],
+      "responses": [
+        "href=https://vit.edu.in/images/syllabus/telecommunication/EXTC_TE_2016.pdf"
+      ]
+},
+{
+      "tag": "BE-EXTC-Syllabus",
+      "patterns": [
+        "Syllabus For Final year EXTC",
+        "Syllabus For Final year Electronics and telecommunications engineering",
+        "Syllabus For Final year Electronics and telecommunications engineering branch",
+        "Syllabus For Final year Electronics and telecommunications branch",
+        "Syllabus For Final year EXTC branch",
+        "Syllabus For BE-EXTC branch"
+      ],
+      "responses": [
+        "https://vit.edu.in/images/syllabus/telecommunication/EXTC_BE_2016.pdf"
+      ]
+},
+{
+      "tag": "PG-EXTC-Syllabus",
+      "patterns": [
+        "Syallabus For Post-graduation EXTC",
+        "Syallabus For Post-graduation Electronics and telecommunications engineering",
+        "Syallabus For Post-graduation Electronics and telecommunications engineering branch",
+        "Syallabus For Post-graduation Electronics and telecommunications branch",
+        "Syallabus For Post-graduation EXTC branch",
+        "Syallabus For PG-EXTC branch"
+      ],
+      "responses": [
+        "https://vit.edu.in/images/syllabus/telecommunication/PG-Syllabus.pdf"
+      ]
+}
+  ]
+}

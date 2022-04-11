@@ -1,0 +1,1 @@
+{"intents": [{"patterns": ["hey", "hi:)", "How are you", "Is anyone there?", "Hello", "Good day"], "responses": ["Hey :-)", "Hi there, what can I do for you?", "Hi there, how can I help?"], "tag": "greating"}, {"patterns": ["Bye", "See you later", "Goodbye"], "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."], "tag": "goodbye"}]}
